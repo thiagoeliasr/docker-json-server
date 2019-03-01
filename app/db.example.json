@@ -1,0 +1,24 @@
+{
+t"posts": [
+		{
+			"id": 1,
+			"title": "So, how do I make this work ?",
+      "description": "Just rename this file from db.example.json to db.json"
+		},
+		{
+			"id": 2,
+			"title": "Just this ?",
+      "description": "Yep. If your're using my appliance, now just build the docker image and run it"
+		},
+		{
+			"id": 3,
+			"title": "And where da hell will it run ?",
+      "description": "try on your localhost port 3000"
+		},
+		{
+			"id": 4,
+			"title": "Have you done all this ?",
+      "description": "No. I'm using the amazing https://github.com/techiediaries/fake-api-jwt-json-server/ with some changed lines and just created the dockerfile. Enjoy."
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"name": "Sonic The Hedgehog",
+			"email": "sonic@sega.com",
+			"password": "123mudar"
+		},
+		{
+			"id": 2,
+			"name": "Tails Miles Prower",
+			"email": "tails@sega.com",
+			"password": "123mudar"
+		},
+		{
+			"id": 3,
+			"name": "Knuckles The Echidna",
+			"email": "knuckles@sega.com",
+			"password": "123mudar"
+		}
+	]
+}
