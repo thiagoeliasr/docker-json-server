@@ -1,3 +1,3 @@
 #!/bin/bash
 
-npm run start-auth
+npm install && npm run start-auth
