@@ -1,13 +1,16 @@
 const fs = require('fs')
 const bodyParser = require('body-parser')
 const jsonServer = require('json-server')
+var cors = require('cors');
 const jwt = require('jsonwebtoken')
 
 const server = jsonServer.create()
 const router = jsonServer.router('./db.json')
 const userdb = JSON.parse(fs.readFileSync('./users.json', 'UTF-8'))
 
+server.use(jsonServer.defaults());
 server.use(bodyParser.json())
+server.use(cors({ origin: true, credentials: true }));
 
 const SECRET_KEY = "1231923618723618273618237618273A"
 const expiresIn = "8h"
