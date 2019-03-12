@@ -4,25 +4,19 @@
 			"id": 1,
 			"name": "Sonic The Hedgehog",
 			"email": "sonic@sega.com",
-			"password": "123mudar",
-      "expiry": "2019-04-01",
-      "percentage": "50"
+			"password": "123mudar"
 		},
 		{
 			"id": 2,
 			"name": "Tails Miles Prower",
 			"email": "tails@sega.com",
-			"password": "123mudar",
-      "expiry": "2019-02-20",
-      "percentage": "100"
+			"password": "123mudar"
 		},
 		{
 			"id": 3,
 			"name": "Knuckles The Echidna",
 			"email": "knuckles@sega.com",
-			"password": "123mudar",
-      "expiry": "2019-04-01",
-      "percentage": "72"
+			"password": "123mudar"
 		}
 	]
 }

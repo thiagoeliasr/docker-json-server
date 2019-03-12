@@ -47,12 +47,16 @@ server.post('/api/login', (req, res) => {
       id: user.id,
       name: user.name,
       email: user.email,
+      expiry: user.expiry,
+      percentage: user.percentage,
       api_token: api_token
     }
   })
 })
 
-server.use(/^(?!\/auth).*$/,  (req, res, next) => {
+eval(fs.readFileSync('methods.js') + '');
+
+server.use(/^(?!\/api\/login).*$/,  (req, res, next) => {
   if (req.headers.authorization === undefined || req.headers.authorization.split(' ')[0] !== 'Bearer') {
     const status = 401
     const message = 'Você não tem permissão para acessar o recurso solicitado'
