@@ -2,27 +2,35 @@
 	"users": [
 		{
 			"id": 1,
-			"name": "Sonic The Hedgehog",
-			"email": "sonic@sega.com",
+			"name": "José de Abreu",
+			"email": "jose@email.com",
 			"password": "123mudar",
-      "expiry": "2019-04-01",
+      "expiry": "2019-10-01",
       "percentage": "50"
 		},
 		{
 			"id": 2,
-			"name": "Tails Miles Prower",
-			"email": "tails@sega.com",
+			"name": "João Silva",
+			"email": "joao@email.com",
 			"password": "123mudar",
       "expiry": "2019-02-20",
       "percentage": "100"
 		},
 		{
 			"id": 3,
-			"name": "Knuckles The Echidna",
-			"email": "knuckles@sega.com",
+			"name": "Pedro Alberto",
+			"email": "pedro@email.com",
 			"password": "123mudar",
-      "expiry": "2019-04-01",
+      "expiry": "2019-10-01",
       "percentage": "72"
+		},
+		{
+			"id": 4,
+			"name": "Danilo Santos",
+			"email": "danilo@email.com",
+			"password": "123mudar",
+      "expiry": "2019-10-20",
+      "percentage": "100"
 		}
 	]
 }
